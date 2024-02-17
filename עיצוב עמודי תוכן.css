@@ -1,0 +1,19 @@
+﻿body {
+    background-color: darkred;
+}
+    td, th {
+    border: 2px dotted red;
+    font-size: 32px;
+    text-align: center;
+    color: red;
+}
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+}

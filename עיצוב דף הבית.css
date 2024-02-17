@@ -1,0 +1,18 @@
+﻿body {
+    background-color: darkred;
+    background-image: url('תמונות החטופים/bring them home now.jpg');
+    background-position: top;
+    background-size: 35%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: crimson;
+    text-align: center;
+    z-index: 0;
+}
+td, th {
+    font-size: 32px;
+    text-align: center;
+    color: ghostwhite;
+}

@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master Page.master.cs" Inherits="WebApplication3.Master_Page" %>
+<html>
+        <nav class="navbar">
+<nav class="top-nav">
+  <ul>
+      <li> <a href="כולם.aspx">כולם</a></li>
+    <li> <a href="נרצחו.aspx">נרצחו</a></li>
+      <li> <a href="שוחררו.aspx">שוחררו</a></li>
+      <li> <a href="עדיין%20בעזה.aspx">עדיין בעזה</a></li>
+    <li> <a href="דף הבית.aspx">דף הבית</a></li>
+  </ul>
+</nav>
+<html>
+<head runat="server">
+    <style>
+        nav.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  z-index: 100;
+}
+
+nav.top-nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav.top-nav li {
+  margin: 0 1rem;
+}
+
+nav.top-nav a {
+  color: inherit;
+  text-decoration: none;
+  padding: 0.5rem;
+  display: block;
+}
+
+nav.top-nav a:hover {
+  background: #555;
+}
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
